@@ -1,28 +1,20 @@
-.App {
-  text-align: center;
+/* ::::: Phone Screens ::::: */
+@media(max-width: 570px){
+  body{
+    background-color: brown;
+  }
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/* ::::: Tablet screens ::::: */
+@media(min-width: 571px){
+  body{
+    background-color: yellow;
+  }
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* ::::: Desktop Screens ::::: */
+@media(min-width: 1200px){
+  body{
+    background-color: green;
+  }
 }

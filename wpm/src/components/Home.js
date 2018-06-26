@@ -21,7 +21,7 @@ import React, { Component } from 'react';
             <p id='home-article-para'>If you type adeptly with 10 fingers, you're typing faster than your mind is working.
               <span>James A. Michener</span>
             </p>
-          </article> 
+          </article>
         </main>
       )
     }
