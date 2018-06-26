@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-  class Home extends Component{
+  class Landingpage extends Component{
     render(){
       return(
         <main id='main-home'>
@@ -26,4 +26,4 @@ import React, { Component } from 'react';
       )
     }
   }
-export default Home;
+export default Landingpage;
