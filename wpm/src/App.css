@@ -11,17 +11,95 @@
 /* ::::: Desktop Screens ::::: */
 @media(min-width: 1200px){
   /* ::::: LANDING PAGE ::::: */
+  #main-home{
+    display: flex;    
+  }
+  #login-section{
+    width:30%;
+    text-align: center;
+    position: relative;
+  }
+  #login-section h1{
+    color:#811aa1;
+    margin: 20% 0;
+  }
+  #login-options{
+    margin: auto;
+    width: 350px;
+    padding: 20% 0;
+    border-top:5px solid#a445b2;
+    border-right: 1px solid #ecd7de;
+    border-bottom: 1px solid #ecd7de;
+    border-left: 1px solid #ecd7de;
 
-  
+  }  
+  .padding-ten{
+    padding: 10px 0;
+  }
+  .homepage-btn{
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #fff;
+    border-radius: 3px;
+    margin: 5px 100px;
+    border-style: none;
+  }
+  #facebook-btn{
+    background-color:#334f8d;
+  }
+  #google-btn{
+    background-color:#d84132;
+  }
+  button:focus{
+    outline: 0;    
+  }
+  #home-article{
+    width:70%;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+    color: white;
+    background-image: linear-gradient(135deg, rgba(247, 97, 161, 0.9) 0%, rgba(140, 27, 171, 0.9) 100%),url('./assets/typewriter.jpeg');
+    background-position: center;
+    font-weight: 300;
+    text-align: center;
+  }
+  #home-article h2{
+    border-left: 5px solid white;
+    padding-left: 18px;
+    margin-left: 50px;
+    font-weight: 300;
+    float: left;
+  }
+  #home-article p{
+    margin-left: 50px;
+    float: left;
+  }
+  #home-article span{
+    float:left;
+  }
+  #home-footer{
+    margin-top: 25%;
+  }
+  #home-footer a{
+    margin: 0 1%;
+    color: #626293;
+    text-decoration: none;
+  }
+  #home-footer a:hover{
+    text-decoration: underline;
+  }
   /* ::::: HOMEPAGE DESIGN ::::*/
   .testContainer {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-      height: calc(100vh - 50px);
-      flex-wrap: wrap;
-      margin-top: 70px;
+    height: calc(100vh - 50px);
+    flex-wrap: wrap;
+    margin-top: 70px;
   }
   
   .practiceTest {
