@@ -138,22 +138,14 @@
     width:70%;
     background-image: linear-gradient(135deg, rgba(247, 97, 161, 0.9) 0%, rgba(140, 27, 171, 0.9) 100%),url('./assets/typewriter.jpeg');
     background-repeat: no-repeat;
-    /*background: none center/cover #f2f2f2;*/
     background-size: cover;
-    display: cover;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Work Sans', sans-serif;
     flex-direction: column;
-
-    /*position: absolute;
-    left: 30%;
-    color: white;
-    background-image: linear-gradient(135deg, rgba(247, 97, 161, 0.9) 0%, rgba(140, 27, 171, 0.9) 100%),url('./assets/typewriter.jpeg');
-    background-position: center;
-    font-weight: 300;
-    text-align: center;*/
   }
+
   #home-article h2{
     float: left;
     font-weight: 300;
@@ -163,6 +155,7 @@
     padding-left: 10px;
     margin-left: 18px;
   }
+
   #home-article p{
     width: 80%;
     font-size: 35px;
@@ -172,20 +165,25 @@
     font-weight: 300;
     text-shadow: -2px 1px rgba(black, 0.1);
   }
+
   #home-article span{
     font-weight: 400;
   }
+
   #home-footer{
     margin-top: 25%;
   }
+
   #home-footer a{
     margin: 0 1%;
     color: #626293;
     text-decoration: none;
   }
+
   #home-footer a:hover{
     text-decoration: underline;
   }
+  
   /* ::::: HOMEPAGE DESIGN ::::*/
   .testContainer {
     width: 100%;
