@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
+import '../App.css';
 
   class Landingpage extends Component{
     render(){
       return(
         <main id='main-home'>
           <section id='login-section'>
-            <h1>TYPE</h1>
-            <div id='login-options'>
-              <p className='padding-ten'>GET IN WITH</p>
-              <button id='facebook-btn' className='homepage-btn'>Facebook</button>
-              <button id='google-btn' className='homepage-btn'>Google</button>
+            <div className="landingLogo">
+              <h1>TYPE</h1>
             </div>
+            <div id='login-options'>
+              <div className="topBar">
+                <div className="bartop"></div>
+                <div className="blurbar"></div>
+              </div>
+              <div className= 'loginSocial'>
+                <p>GET IN WITH</p>
+                <div className='loginButtons'>
+                  <a className='fb-btn' href="/homepage">Facebook</a>
+                  <a className='go-btn' href="/homepage">Google</a>
+                </div>
+              </div> 
             <div id='home-footer'>
               <a href='/privacy'>PRIVACY</a>
               <a href='/privacy'>TERMS</a>
+            </div>
             </div>
           </section>            
           <article id='home-article'>
