@@ -7,7 +7,7 @@ import '../App.css';
         <main id='main-home'>
           <section id='login-section'>
             <div className="landingLogo">
-              <h1>TYPE</h1>
+              <h1>TYPE.</h1>
             </div>
             <div id='login-options'>
               <div className="topBar">
