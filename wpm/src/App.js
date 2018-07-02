@@ -1,7 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'; 
+
 import Landingpage from './components/Landingpage';
 import Homepage from './components/Homepage';
+import Profile from './components/Profile';
+
 import './App.css';
 
 const App = () => (
@@ -10,6 +13,7 @@ const App = () => (
         <switch>
           <Route exact path="/" component={Landingpage} />
           <Route exact path='/homepage' component={Homepage}/>
+          <Route exact path='/profile' component={Profile}/>
         </switch>
       </div>
   </Router> 
