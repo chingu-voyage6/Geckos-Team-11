@@ -20,11 +20,12 @@ import '../App.css';
                   <a className='fb-btn' href="/homepage">Facebook</a>
                   <a className='go-btn' href="/homepage">Google</a>
                 </div>
+                <div id='home-footer'>
+                  <a href='/privacy'>PRIVACY</a>
+                  <a href='/privacy'>TERMS</a>
+                </div>
               </div> 
-            <div id='home-footer'>
-              <a href='/privacy'>PRIVACY</a>
-              <a href='/privacy'>TERMS</a>
-            </div>
+            
             </div>
           </section>            
           <div id='home-article'>
