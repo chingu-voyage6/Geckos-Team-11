@@ -28,7 +28,7 @@ import typewriter from '../assets/typewriter.jpeg';
             </div>
             <h3>RECENT</h3>  
             <div id='recent-progress'>
-              <Progressbar />         
+              <Progressbar />      
             </div>                     
           </div>
         </main>

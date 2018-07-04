@@ -17,8 +17,8 @@ import '../App.css';
               <div className= 'loginSocial'>
                 <p>GET IN WITH</p>
                 <div className='loginButtons'>
-                  <a className='fb-btn' href="/homepage">Facebook</a>
-                  <a className='go-btn' href="/homepage">Google</a>
+                  <a className='fb-btn' href="/board">Facebook</a>
+                  <a className='go-btn' href="/board">Google</a>
                 </div>
                 <div id='home-footer'>
                   <a href='/privacy'>PRIVACY</a>
