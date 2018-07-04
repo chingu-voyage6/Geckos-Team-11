@@ -27,7 +27,7 @@ import '../App.css';
               </div> 
             
             </div>
-          </section>            
+          </section>   
           <div id='home-article'>
             <h2 id='home-article-header'>Improve your Typing Skills with your friends</h2>
             <p id='home-article-para'>If you type adeptly with 10 fingers, you're typing faster than your mind is working.
