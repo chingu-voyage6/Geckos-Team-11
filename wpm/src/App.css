@@ -359,4 +359,17 @@
     display: flex;
     justify-content: center;
   }
+  #progressbar{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  progress[value]::-webkit-progress-bar{
+    height: 30px;
+    border-radius: 15px;
+    background-color: grey;
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 15px 0 0 15px;
+    background-image: linear-gradient(135deg,#fccf31 10%,#f55555);
+  }
 }
