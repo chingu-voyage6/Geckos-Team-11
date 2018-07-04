@@ -360,11 +360,13 @@
     justify-content: center;
   }
   #progressbar{
+    background-color: #fff;
     display: flex;
     justify-content: space-evenly;
   }
   progress[value]::-webkit-progress-bar{
     height: 30px;
+    width: 250px;
     border-radius: 15px;
     background-color: grey;
   }
