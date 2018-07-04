@@ -184,7 +184,7 @@
     text-decoration: underline;
   }
   
-  /* ::::: HOMEPAGE DESIGN ::::*/
+  /* ::::: HOMEPAGE DESIGN :::: */
   .testContainer {
     width: 100%;
     display: flex;
@@ -313,5 +313,50 @@
       -webkit-transform: scale(0.9);
           -ms-transform: scale(0.9);
               transform: scale(0.9);
+  }
+  /* ::::: PROFILE DESIGN :::: */
+  #profile-main{
+    display: flex;
+    padding: 30px 0 0 0;
+  }
+  #profile-main h3{
+    color: grey;
+  }
+  #user{
+    flex: 3;
+    text-align: center;
+  }
+  #user-score{
+    flex: 6;
+  }
+  #profile-pic{
+    border-radius: 50%;
+  }
+  .user-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: grey;
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    margin: 20px 10px;
+    box-shadow: 0 0 51px 0 rgba(0,0,0,.08), 0 6px 18px 0 rgba(0,0,0,.05);
+  }
+  .user-result h4{
+   font-size: 15px;
+    margin:5px 0;
+  }
+  .user-result p{
+    font-size: 65px;
+    margin:0;
+  }
+  .user-result span{
+    font-size: 15px;
+    margin:0;
+  }
+  #user-wpm-results{
+    display: flex;
+    justify-content: center;
   }
 }
