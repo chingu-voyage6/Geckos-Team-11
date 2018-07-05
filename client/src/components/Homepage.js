@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
+
 import '../Navbar.css'
 
 import Nav from '../partials/Nav';
-
 class Homepage extends Component {
   render() {
     return (
