@@ -10,6 +10,7 @@ class Progressbar extends Component{
         </progress>
         <p>00 WPM</p>
       </div>
+      
     )
   }
 }
