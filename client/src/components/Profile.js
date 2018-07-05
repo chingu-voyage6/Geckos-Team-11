@@ -29,7 +29,7 @@ import Nav from '../partials/Nav';
             </div>
             <h3>RECENT</h3>  
             <div id='recent-progress'>
-              <Progressbar />         
+              <Progressbar />      
             </div>                     
           </div>
           <Nav />
