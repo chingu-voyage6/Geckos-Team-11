@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import '../App.css';
 
+import '../Navbar.css'
+
+import Nav from '../partials/Nav';
 class Homepage extends Component {
   render() {
     return (
       <div className="App">
 		 <body>
+     <Nav />
 			<div className="testContainer">
 				<div className="practiceTest">
 					<div className="topBar">
@@ -15,7 +20,7 @@ class Homepage extends Component {
 						<h1>Practice Test</h1>
 						<p>+20 Reputation</p>
 						<div className="btn-wrapper">
-							<a href="http://www.google.com">
+							<a href="/board">
 								<button>Start</button>
 							</a>
 							<div className="buttonshadow"></div>
@@ -28,5 +33,14 @@ class Homepage extends Component {
     );
   }
 }
-  
+  class Box extends Component{
+  	render() {
+  		return (
+  		<div className="DropInOut dropDown">
+  		<a href="/profile">Profile</a>
+    	<a href="/logout">Logout</a>
+    	</div>
+    	);
+  	}
+  }
 export default Homepage;
