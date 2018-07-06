@@ -7,7 +7,7 @@ import '../App.css';
         <main id='main-home'>
           <section id='login-section'>
             <div className="landingLogo">
-              <h1>TYPE</h1>
+              <h1>TYPE.</h1>
             </div>
             <div id='login-options'>
               <div className="topBar">
@@ -25,9 +25,8 @@ import '../App.css';
                   <a href='/privacy'>TERMS</a>
                 </div>
               </div> 
-            
             </div>
-          </section>   
+          </section>  
           <div id='home-article'>
             <h2 id='home-article-header'>Improve your Typing Skills with your friends</h2>
             <p id='home-article-para'>If you type adeptly with 10 fingers, you're typing faster than your mind is working.

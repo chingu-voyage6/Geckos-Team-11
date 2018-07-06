@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Progressbar from '../partials/Progressbar';
 import typewriter from '../assets/typewriter.jpeg';
+import Nav from '../partials/Nav';
 
   class Profile extends Component{
     render(){
@@ -31,6 +32,7 @@ import typewriter from '../assets/typewriter.jpeg';
               <Progressbar />      
             </div>                     
           </div>
+          <Nav />
         </main>
       )
     }
