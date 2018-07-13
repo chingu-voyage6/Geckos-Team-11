@@ -563,4 +563,9 @@
     border-radius: 15px 0 0 15px;
     background-image: linear-gradient(135deg,#fccf31 10%,#f55555);
   }*/
+
+    /* ::::: PRACTICE DESIGN :::: */
+  .practiceWrapper{
+    display: flex;
+  }
 }
