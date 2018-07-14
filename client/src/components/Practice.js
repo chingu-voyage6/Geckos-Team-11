@@ -5,8 +5,9 @@ class Practice extends Component{
   render(){
     return(
     	<main>
-      		<GameNav />
+    	      		<GameNav />
       		<div className='practiceWrapper'>
+
       			<div className='bigSpace'></div>
       			<div className='playerConnect'>
       				<div className='playerMeter'>
@@ -38,10 +39,14 @@ class Practice extends Component{
       					</div>
       				</div>
       				<div className='typeContainer'>
-      					<div className='typeWrapper'>
+      					<div className='typeWrapper comType'>
+      					<div className='gameLetters'>
+      					<p></p>
       					</div>
+      				
       					<div className='inputWrapper'>
       						<input type='text' id='inputEl' placeholder='Type Here' />
+      					</div>
       					</div>
       				</div>
       			</div>		
