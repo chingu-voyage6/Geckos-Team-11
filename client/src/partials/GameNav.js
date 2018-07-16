@@ -3,13 +3,19 @@ import '../Navbar.css';
 import '../GameNav.css';
 
   class Time extends Component{
+		constructor(){
+			super();
+			this.state = {
+				timer: '00:00'
+			}
+		}
     render(){
       return (
       <div className='timeClock'>
-      <p>00:00</p>
-      <span className='blurP'></span>
-    </div>
-  );
+      	<p>{this.state.timer}</p>
+      	<span className='blurP'></span>
+    	</div>
+  		);
     }
   }
 
