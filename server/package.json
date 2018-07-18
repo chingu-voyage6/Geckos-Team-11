@@ -4,10 +4,11 @@
   "description": "A typing project that gives your typing speed.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "concurrently \"node index.js\" \"cd client && npm start\" "
   },
   "dependencies": {
-    "express": "*"
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3"
   },
   "repository": {
     "type": "git",
