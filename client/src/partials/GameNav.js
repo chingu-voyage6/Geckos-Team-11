@@ -6,33 +6,33 @@ import '../GameNav.css';
 		constructor(){
 			super();
 			this.state = {
-				timer: 160
+				timer: 120
 			}
 		}
-		convertToTime(){
+		convertToTime = ()=>{
 			let time = (this.state.timer)
 			let minutes = ~~((time % 3600) / 60);
 			let secs = time % 60;
 			return `${minutes}:${secs}`;
 		}
-		timePerSecond(){
+		timePerSecond = ()=>{
 			let time = (this.state.timer);
-			if(time < 0){
+			if(time <= 0){
 				clearInterval(this.timePerSecondInterval);
 				return false;
 			}
 			else{
-				time--;
+				time--;	
 				this.setState({
 					timer: time
-				})
+				});	
 			}			
 		}
-		timeRunner(){
+		timeRunner = ()=>{
 			this.timePerSecondInterval = window.setInterval(this.timePerSecond, 1000);
 		}
 		componentDidMount(){
-			this.timeoutID = window.setTimeout(this.timePerSecond, 2000);
+			this.timeoutID = window.setTimeout(this.timeRunner, 5000);
 		}
     render(){
       return (
