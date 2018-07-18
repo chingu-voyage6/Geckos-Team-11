@@ -20,7 +20,7 @@ class Homepage extends Component {
 						<h1>Practice Test</h1>
 						<p>+20 Reputation</p>
 						<div className="btn-wrapper">
-							<a href="/board">
+							<a href="/practice">
 								<button>Start</button>
 							</a>
 							<div className="buttonshadow"></div>
