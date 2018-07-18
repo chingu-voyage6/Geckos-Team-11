@@ -33,14 +33,14 @@ class Homepage extends Component {
     );
   }
 }
-  class Box extends Component{
-  	render() {
-  		return (
-  		<div className="DropInOut dropDown">
-  		<a href="/profile">Profile</a>
-    	<a href="/logout">Logout</a>
-    	</div>
-    	);
-  	}
-  }
+  // class Box extends Component{
+  // 	render() {
+  // 		return (
+  // 		<div className="DropInOut dropDown">
+  // 		<a href="/profile">Profile</a>
+  //   	<a href="/logout">Logout</a>
+  //   	</div>
+  //   	);
+  // 	}
+  // }
 export default Homepage;
