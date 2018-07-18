@@ -3,13 +3,44 @@ import '../Navbar.css';
 import '../GameNav.css';
 
   class Time extends Component{
+		constructor(){
+			super();
+			this.state = {
+				timer: 120
+			}
+		}
+		convertToTime = ()=>{
+			let time = (this.state.timer)
+			let minutes = ~~((time % 3600) / 60);
+			let secs = time % 60;
+			return `${minutes}:${secs}`;
+		}
+		timePerSecond = ()=>{
+			let time = (this.state.timer);
+			if(time <= 0){
+				clearInterval(this.timePerSecondInterval);
+				return false;
+			}
+			else{
+				time--;	
+				this.setState({
+					timer: time
+				});	
+			}			
+		}
+		timeRunner = ()=>{
+			this.timePerSecondInterval = window.setInterval(this.timePerSecond, 1000);
+		}
+		componentDidMount(){
+			this.timeoutID = window.setTimeout(this.timeRunner, 5000);
+		}
     render(){
       return (
       <div className='timeClock'>
-      <p>00:00</p>
-      <span className='blurP'></span>
-    </div>
-  );
+      	<p>{this.convertToTime()}</p>
+      	<span className='blurP'></span>
+    	</div>
+  		);
     }
   }
 
