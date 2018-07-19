@@ -6,7 +6,7 @@ class Testbar extends Component{
             <div id='recent-progress'>
               <div className='user_singleGraph'>
                 <div className='user_leftNum'>
-                  <p>File Name</p>
+                  <p>Game Name</p>
                 </div>
                 <div className='user_rightSide'>
                   <div className='user_graphLWrapper2'></div>
