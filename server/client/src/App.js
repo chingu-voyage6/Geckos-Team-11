@@ -8,14 +8,40 @@ import Profile from './components/Profile';
 
 import './App.css';
 
+const checkAuth = () =>{
+  let token = localStorage.getItem('token');
+  if(token){
+    return true; 
+  }else {
+    return false;
+  }
+}
+
+const PrivateRoute = ({ component: Component, ...rest }) => (
+	<Route
+		{...rest}
+		render={props =>
+			checkAuth() ? (
+				<Component {...props} />
+			) : (
+					<Redirect
+						to={{
+								pathname: "/",
+								state: { from: props.location }
+						}}
+					/>
+				)
+			}
+	/>
+);
 const App = () => (
   <Router>
    <div>
     <switch>
      <Route exact path="/" component={Landingpage} />
-     <Route exact path='/board' component={Homepage}/>
-     <Route exact path='/practice' component={Practice}/>
-     <Route exact path='/profile' component={Profile}/>
+     <PrivateRoute exact path='/board' component={Homepage}/>
+     <PrivateRoute exact path='/practice' component={Practice}/>
+     <PrivateRoute exact path='/profile' component={Profile}/>
     </switch>
    </div>
   </Router> 
