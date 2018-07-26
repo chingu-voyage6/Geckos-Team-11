@@ -4,7 +4,7 @@ require('dotenv').config();
 const app = express();
 
 //This will be the built production version when the app is launched on HEROKU
-app.use(express.static(path.join(__dirname, 'client/build')));
+//app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/', (req, res)=> res.send('HELLO TYPER'));
 
