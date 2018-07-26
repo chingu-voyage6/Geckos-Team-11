@@ -10,14 +10,14 @@ import './App.css';
 
 const App = () => (
   <Router>
-      <div>
-        <switch>
-          <Route exact path="/" component={Landingpage} />
-          <Route exact path='/board' component={Homepage}/>
-          <Route exact path='/practice' component={Practice}/>
-          <Route exact path='/profile' component={Profile}/>
-        </switch>
-      </div>
+   <div>
+    <switch>
+     <Route exact path="/" component={Landingpage} />
+     <Route exact path='/board' component={Homepage}/>
+     <Route exact path='/practice' component={Practice}/>
+     <Route exact path='/profile' component={Profile}/>
+    </switch>
+   </div>
   </Router> 
 )
 
