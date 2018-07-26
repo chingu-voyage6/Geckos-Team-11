@@ -3,4 +3,4 @@ const app = express();
 
 app.get('/', (req, res)=> res.send('HELLO TYPER'));
 
-app.listen(3001, ()=> console.log('App listening on port 3000'))
+app.listen(process.env.PORT || 3001, ()=> console.log('>App listening on port 3000'))
