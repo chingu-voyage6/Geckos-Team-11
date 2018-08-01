@@ -3,6 +3,7 @@ require('dotenv').config();
 
 const app = express();
 
+
 //This will be the built production version when the app is launched on HEROKU
 //app.use(express.static(path.join(__dirname, 'client/build')));
 
@@ -22,7 +23,7 @@ app.get('/profile', (req, res)=>{
 })
 
 //::::: SHOULD HANDLE ALL PRACTICE REQUEST
-app.get('practice', (req, res)=>{
+app.get('/practice', (req, res)=>{
     res.send({'practice':'Success!'})
 })
 
