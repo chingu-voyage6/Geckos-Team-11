@@ -27,4 +27,8 @@ app.get('/practice', (req, res)=>{
     res.send({'practice':'Success!'})
 })
 
+app.get('*', (req, res)=>{
+    res.send({"File Not Found": 404})
+})
+
 app.listen(process.env.PORT || 3001, ()=> console.log(`>App listening on port ${process.env.PORT}`))
