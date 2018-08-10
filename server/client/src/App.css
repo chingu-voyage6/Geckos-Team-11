@@ -1,0 +1,1059 @@
+/* ::::: Phone Screens ::::: */
+@media(max-width: 570px){
+   .practiceWrapper{
+    display: flex;
+    margin-top: 200px;
+    height: 100%;
+  }
+
+  .bigSpace {
+    width: 25%;
+    height: calc(90vh - 50px);
+    margin: 50px 15px;
+  }
+
+  .playerConnect{
+    margin: 45px auto;
+    width: 60%;
+  }
+  .playerMeter{
+    width: 70%;
+    height: 38vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .allSinglePlayerMod{
+    position: relative;
+    transition: .4s;
+  }
+  .statusBar{
+    position: absolute;
+    margin: -80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .playerInfo{
+    padding: 8px;
+    background: #fff;
+    border-radius: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: 0px 11px 37px 0px rgba(0,0,0,.1);
+  }
+  .playerInfo b{
+    font-weight: 400;
+  }
+  .playerInfo span{
+    font-size: 13px;
+    font-weight: 300;
+    color: #8d8d8d;
+  }
+  .singlePlayerMod {
+    background: rgba(254, 81, 150, 0.35);
+    width: 180px;
+    height: 100%;
+  }
+  .singleModProfile{
+    width: 100%;
+    position: absolute; 
+    z-index: 2;
+  }
+  .modLineWrapper{
+    width: 100%;
+  }
+  .modLine{
+    width: 100%;
+    height: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f77062), to(#fe5196));
+    background-image: -webkit-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: -o-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  }
+  .ModLineBlur{
+    width: 100%;
+    height: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f77062), to(#fe5196));
+    background-image: -webkit-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: -o-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    -webkit-filter: blur(10px);
+            filter: blur(10px)
+}
+.modPic{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.modPic img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: -45px;
+  box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.2);
+  border: 5px solid #f77062;
+  }
+
+  .allInfoAboutSingleMod {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+}
+.playerUserName {
+  background: #fff;
+  padding: 8px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #8d8d8d;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 11px 33px 0px rgba(0,0,0,0.07);
+  box-shadow: 0px 11px 33px 0px rgba(0,0,0,0.07);
+}
+.typeContainer {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+}
+.comType {
+  width: 100%;
+}
+.typeWrapper {
+  width: 100%;
+}
+.gameLetters {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: justify;
+  position: relative;
+  color: #555555;
+  line-height: 1.15;
+}
+.inputWrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+.inputWrapper input {
+  width: 80%;
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-family: 'Work Sans', sans-serif;
+  border: 1px solid #eee;
+  font-size: 20px;
+  font-weight: 300;
+  box-shadow: 0px 8px 33px 0px rgba(0,0,0,0.1);
+  outline: none;
+  border-radius: 5px;
+}
+}
+
+/* ::::: Tablet screens ::::: */
+@media(min-width: 571px){
+     .practiceWrapper{
+    display: flex;
+    margin-top: 200px;
+    height: 100%;
+  }
+
+  .bigSpace {
+    width: 25%;
+    height: calc(90vh - 50px);
+    margin: 50px 15px;
+  }
+
+  .playerConnect{
+    margin: 45px auto;
+    width: 60%;
+  }
+  .playerMeter{
+    width: 70%;
+    height: 38vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .allSinglePlayerMod{
+    position: relative;
+    transition: .4s;
+  }
+  .statusBar{
+    position: absolute;
+    margin: -80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .playerInfo{
+    padding: 8px;
+    background: #fff;
+    border-radius: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: 0px 11px 37px 0px rgba(0,0,0,.1);
+  }
+  .playerInfo b{
+    font-weight: 400;
+  }
+  .playerInfo span{
+    font-size: 13px;
+    font-weight: 300;
+    color: #8d8d8d;
+  }
+  .singlePlayerMod {
+    background: rgba(254, 81, 150, 0.35);
+    width: 180px;
+    height: 100%;
+  }
+  .singleModProfile{
+    width: 100%;
+    position: absolute; 
+    z-index: 2;
+  }
+  .modLineWrapper{
+    width: 100%;
+  }
+  .modLine{
+    width: 100%;
+    height: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f77062), to(#fe5196));
+    background-image: -webkit-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: -o-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  }
+  .ModLineBlur{
+    width: 100%;
+    height: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f77062), to(#fe5196));
+    background-image: -webkit-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: -o-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    -webkit-filter: blur(10px);
+            filter: blur(10px)
+}
+.modPic{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.modPic img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: -45px;
+  box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.2);
+  border: 5px solid #f77062;
+  }
+
+  .allInfoAboutSingleMod {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+}
+.playerUserName {
+  background: #fff;
+  padding: 8px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #8d8d8d;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 11px 33px 0px rgba(0,0,0,0.07);
+  box-shadow: 0px 11px 33px 0px rgba(0,0,0,0.07);
+}
+.typeContainer {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+}
+.comType {
+  width: 100%;
+}
+.typeWrapper {
+  width: 100%;
+}
+.gameLetters {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: justify;
+  position: relative;
+  color: #555555;
+  line-height: 1.15;
+}
+.inputWrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+.inputWrapper input {
+  width: 80%;
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-family: 'Work Sans', sans-serif;
+  border: 1px solid #eee;
+  font-size: 20px;
+  font-weight: 300;
+  box-shadow: 0px 8px 33px 0px rgba(0,0,0,0.1);
+  outline: none;
+  border-radius: 5px;
+}
+ 
+}
+
+/* ::::: Desktop Screens ::::: */
+@media(min-width: 1200px){
+  /* ::::: LANDING PAGE ::::: */
+  
+  #main-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+  }
+
+  #login-section{
+    width:30%;
+    border-right: 1px solid #eee;
+    -webkit-box-shadow: 24px 0px 33px -7px rgba(0,0,0,0.1);
+    box-shadow: 24px 0px 33px -7px rgba(0,0,0,0.1);
+    position: relative;
+    display: flex;
+    text-align: center;
+     align-items: center;
+     flex-direction: column;
+  }
+
+  .landingLogo {
+    margin-top: 100px;
+  }
+
+  .landingLogo h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(140,27,171);
+    border-left: 10px solid rgb(140,27,171);
+    padding-left: 10px;
+  }
+
+  #login-options{
+    margin-top: 100px;
+    width: 80%;
+    height: 350px;
+  -webkit-box-shadow: 0px 20px 34px -4px rgba(0,0,0,0.05);
+            box-shadow: 0px 20px 34px -4px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+    -webkit-transition: all ease-in-out 200ms;
+    -o-transition: all ease-in-out 200ms;
+    transition: all ease-in-out 200ms;
+  }  
+
+  #login-options:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 20px 34px -4px rgba(0, 0, 0, 0.10);
+  }
+
+  .loginSocial{
+
+  height: 100%;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  position: relative;
+}
+.loginSocial p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.loginButtons{
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.loginButtons a{
+    padding: 10px 40px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.fb-btn{
+    background: #3b5998;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 12px 35px -9px rgba(59,89,152,.4);
+            box-shadow: 0px 12px 35px -9px rgba(59,89,152,.4);
+}
+.go-btn{
+    background: #dd4b39;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 12px 35px -9px rgba(221,75,57,1);
+            box-shadow: 0px 12px 35px -9px rgba(221,75,57,1);
+    -webkit-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+.go-btn:hover{
+    -webkit-transform: translateY(0.5px);
+        -ms-transform: translateY(0.5px);
+            transform: translateY(0.5px);
+    -webkit-box-shadow: 0px 12px 35px -9px rgba(221,75,57,0.4);
+            box-shadow: 0px 12px 35px -9px rgba(221,75,57,0.4);
+    opacity: 0.8;
+
+}
+.fb-btn:hover{
+    -webkit-transform: translateY(0.5px);
+        -ms-transform: translateY(0.5px);
+            transform: translateY(0.5px);
+    -webkit-box-shadow: 0px 12px 35px -9px rgba(59,89,152,0.4);
+            box-shadow: 0px 12px 35px -9px rgba(59,89,152,0.4);
+    opacity: 0.8;
+
+}
+  #home-article{
+    width:70%;
+    background-image: linear-gradient(135deg, rgba(247, 97, 161, 0.9) 0%, rgba(140, 27, 171, 0.9) 100%),url('./assets/typewriter.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    flex-direction: column;
+  }
+
+  #home-article h2{
+    float: left;
+    font-weight: 300;
+    color: #eee;
+    width: 80%;
+    border-left: 5px solid white;
+    padding-left: 10px;
+    margin-left: 18px;
+  }
+
+  #home-article p{
+    width: 80%;
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-shadow: -2px 1px rgba(black, 0.1);
+  }
+
+  #home-article span{
+    font-weight: 400;
+  }
+
+  #home-footer{
+    margin-top: 25%;
+  }
+
+  #home-footer a{
+    margin: 0 1%;
+    color: #626293;
+    text-decoration: none;
+  }
+
+  #home-footer a:hover{
+    text-decoration: underline;
+  }
+  
+  /* ::::: HOMEPAGE DESIGN :::: */
+  .testContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  
+  .practiceTest {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    margin: 2%;
+    border: 1px solid #eee;
+    box-shadow: 0 28px 102px -1px rgba(0,0,0,.05);
+    transition: .2s;
+  }
+  .practiceTest:hover{
+      -webkit-transform: translateY(-3px);
+          -ms-transform: translateY(-3px);
+              transform: translateY(-3px);
+      -webkit-box-shadow: 0px 28px 102px -1px rgba(0,0,0,0.08);
+              box-shadow: 0px 28px 102px -1px rgba(0,0,0,0.08);
+  
+  }
+  
+  .bartop{
+    width: 100%;
+      height: 5px;
+      background-image: -webkit-linear-gradient(315deg,#a445b2,#d41872 52%,#f06);
+      background-image: -o-linear-gradient(315deg,#a445b2 0,#d41872 52%,#f06 100%);
+      background-image: linear-gradient(-225deg,#a445b2,#d41872 52%,#f06);
+      position: relative;
+  }
+  
+  .blurbar{
+    width: 100%;
+      height: 5px;
+      background-image: -webkit-linear-gradient(315deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+      background-image: -o-linear-gradient(315deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+      background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+      /*      box-shadow:  0 4px 10px -2px rgba(140,27,171,0.9);*/
+      position: relative;
+      z-index: 1;
+      -webkit-filter: blur(10px);
+              filter: blur(10px);
+      -webkit-transition: 2.2s;
+      -o-transition: 2.2s;
+      transition: 2.2s;
+  
+  }
+  
+  .testComments{
+    width: 100%;
+    height: 100%;
+    font-family: Work Sans, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .testComments h1 {
+    color: grey;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 10px;
+  }
+  
+  .testComments p {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 55px;
+  }
+  
+  .btn-wrapper {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+  
+  .testComments button {
+    margin-top: 60px;
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: Work San, sans-serif;
+    letter-spacing: 2px;
+      background-image: linear-gradient(-225deg,#a445b2,#d41872 52%,#f06);
+      position: relative;
+      z-index: 1;
+      transition: .2s;
+      outline: none;
+  }
+  
+  .buttonshadow {
+      background-image: linear-gradient(-225deg,#a445b2,#d41872 52%,#f06);
+      width: 150px;
+      height: 40px;
+      position: relative;
+      -webkit-filter: blur(25px);
+      filter: blur(25px);
+      margin-top: -20px;
+      opacity: .3;
+  }
+  
+  .testComments button:hover{
+    cursor: pointer;
+      -webkit-transform: translateY(-2px);
+          -ms-transform: translateY(-2px);
+              transform: translateY(-2px);
+  }
+  
+  .testComments button:active{
+      -webkit-transform: translateY(4px);
+          -ms-transform: translateY(4px);
+              transform: translateY(4px);
+      -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+              transform: scale(0.9);
+  }
+  /* ::::: PROFILE DESIGN :::: */
+  .profileContainer{
+    margin-top: 90px;
+    width: 100%;
+  }
+  #profile-main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .profileUser_left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: 0px 12px 35px -9px rgba(0,0,0,0.4);
+  }
+
+  .profileBadge {
+    display: flex;
+    padding: 5px 10px;
+    background: #eee;
+    top: 250px;
+    font-family: 'Work Sans', sans-serif;
+    background-image: linear-gradient (135deg, #CE9FFC 10%, #7367F0 100%);
+    background-image: -webkit-linear-gradient(315deg,#ce9ffc 10%,#7367f0);
+    background-image: -o-linear-gradient(315deg,#ce9ffc 10%,#7367f0 100%);
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  .profileBadge p{
+    color: aliceblue;
+    font-weight: 300;
+    margin: 0;
+  }
+  .profileBadge svg{
+    margin-right: 5px;
+  }
+
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  .profile-infosmall {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+  }
+  .profile-infosmall h1{
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .profile-infosmall p{
+    margin-top: 10px
+  }
+  #profile-main h3{
+    color: grey;
+  }
+
+  .profileUser_right{
+    width: 70%;
+  }
+  .user_Wpm {
+    padding: 10px;
+  }
+  .profileUser_title p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px;
+    color: #7B7B7B;
+    margin: 0;
+  }
+  .profileUser_title .profileUser_underline {
+    width: 65px;
+    height: 5px;
+    border-radius: 50px;
+    background-image: -webkit-linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-image: -o-linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  }
+  .profileUser_title .profileUser_MULine {
+    width: 65px;
+    height: 5px;
+    border-radius: 50px;
+    background-image: -webkit-linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-image: -o-linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);-webkit-filter: blur(4px);filter: blur(4px);
+    position: relative;
+    top: 2px;
+  }
+  #user-wpm-results {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+/*  #user{
+    flex: 3;
+    text-align: center;
+  }
+  #user-score{
+    flex: 6;
+  }*/
+  .user-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #7b7b7b;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    margin: 12px;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 0 0 51px 0 rgba(0,0,0,.08), 0 6px 18px 0 rgba(0,0,0,.05);
+
+    -webkit-transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transform: translateY(0px);
+     -ms-transform: translateY(0px);
+     transform: translateY(0px);
+  }
+
+  .user-result h1 {
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+  }
+  .user-result p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .user-result:hover {
+    -webkit-box-shadow: 0px 0px 114px 0px rgba(0, 0, 0, 0.08), 0px 30px 25px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 114px 0px rgba(0, 0, 0, 0.08), 0px 30px 25px 0px rgba(0, 0, 0, 0.05);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  .user_Status {
+    padding: 10px;
+  }
+  .user_Status .profileUser_underline {
+    width: 95px;
+    height: 5px;
+    border-radius: 50px;
+    background-image: -webkit-linear-gradient( 315deg, #F761A1 10%, #8C1BAB 100%);
+    background-image: -o-linear-gradient( 315deg, #F761A1 10%, #8C1BAB 100%);
+    background-image: linear-gradient( 135deg, #F761A1 10%, #8C1BAB 100%);
+  }
+  .user_Status .profileUser_MULine {
+    width: 95px;
+    height: 5px;
+    border-radius: 50px;
+    background-image: -webkit-linear-gradient( 315deg, #F761A1 10%, #8C1BAB 100%);
+    background-image: -o-linear-gradient( 315deg, #F761A1 10%, #8C1BAB 100%);
+    background-image: linear-gradient( 135deg, #F761A1 10%, #8C1BAB 100%);;-webkit-filter: blur(4px);;filter: blur(4px);
+    position: relative;
+    top: 2px;
+  }
+  .user_MaxWpm {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .user_MaxWpm p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+  }
+
+  #recent-progress {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+ }
+
+  .user_singleGraph {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    color: #7B7B7B;
+    font-family: 'Work Sans', sans-serif;
+    width: 95%;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .user_leftNum{
+    width: 15%;
+}
+  .user_rightSide{
+    width: 80%;
+
+}
+
+.user_realWpm {
+  width: 5%;
+  margin-left: 15px;
+  padding: 10px;
+}
+.user_graphLWrapper2{
+    width: 100%;
+    height: 25px;
+    background-image: -webkit-linear-gradient( 315deg, #FCCF31 10%, #F55555 100%);
+    background-image: -o-linear-gradient( 315deg, #FCCF31 10%, #F55555 100%);
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+    border-radius: 50px;
+}
+.user_blurGraphLine2{
+    width: 100%;
+    height: 25px;
+    background-image: -webkit-linear-gradient( 315deg, #FCCF31 10%, #F55555 100%);
+    background-image: -o-linear-gradient( 315deg, #FCCF31 10%, #F55555 100%);
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+    border-radius: 50px;
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+    margin-top: -20px;
+    opacity: 0.5;
+}
+
+/*  #progressbar{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  progress[value]::-webkit-progress-bar{
+    height: 30px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: grey;
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 15px 0 0 15px;
+    background-image: linear-gradient(135deg,#fccf31 10%,#f55555);
+  }*/
+
+    /* ::::: PRACTICE DESIGN :::: */
+  .practiceWrapper{
+    display: flex;
+    margin-top: 200px;
+    height: 100%;
+  }
+
+  .bigSpace {
+    width: 25%;
+    height: calc(90vh - 50px);
+    margin: 50px 15px;
+  }
+
+  .playerConnect{
+    margin: 45px auto;
+    width: 60%;
+  }
+  .playerMeter{
+    width: 70%;
+    height: 38vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .allSinglePlayerMod{
+    position: relative;
+    transition: .4s;
+  }
+  .statusBar{
+    position: absolute;
+    margin: -80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .playerInfo{
+    padding: 8px;
+    background: #fff;
+    border-radius: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: 0px 11px 37px 0px rgba(0,0,0,.1);
+  }
+  .playerInfo b{
+    font-weight: 400;
+  }
+  .playerInfo span{
+    font-size: 13px;
+    font-weight: 300;
+    color: #8d8d8d;
+  }
+  .singlePlayerMod {
+    background: rgba(254, 81, 150, 0.35);
+    width: 180px;
+    height: 100%;
+  }
+  .singleModProfile{
+    width: 100%;
+    position: absolute; 
+    z-index: 2;
+  }
+  .modLineWrapper{
+    width: 100%;
+  }
+  .modLine{
+    width: 100%;
+    height: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f77062), to(#fe5196));
+    background-image: -webkit-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: -o-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  }
+  .ModLineBlur{
+    width: 100%;
+    height: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f77062), to(#fe5196));
+    background-image: -webkit-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: -o-linear-gradient(bottom, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    -webkit-filter: blur(10px);
+            filter: blur(10px)
+}
+.modPic{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.modPic img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: -45px;
+  box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.2);
+  border: 5px solid #f77062;
+  }
+
+  .allInfoAboutSingleMod {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+}
+.playerUserName {
+  background: #fff;
+  padding: 8px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #8d8d8d;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 11px 33px 0px rgba(0,0,0,0.07);
+  box-shadow: 0px 11px 33px 0px rgba(0,0,0,0.07);
+}
+.typeContainer {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+}
+.comType {
+  width: 100%;
+}
+.typeWrapper {
+  width: 100%;
+}
+.gameLetters {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: justify;
+  position: relative;
+  color: #555555;
+  line-height: 1.15;
+}
+.inputWrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+.inputWrapper input {
+  width: 80%;
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-family: 'Work Sans', sans-serif;
+  border: 1px solid #eee;
+  font-size: 20px;
+  font-weight: 300;
+  box-shadow: 0px 8px 33px 0px rgba(0,0,0,0.1);
+  outline: none;
+  border-radius: 5px;
+}
+}

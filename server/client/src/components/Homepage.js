@@ -20,7 +20,7 @@ class Homepage extends Component {
 						<h1>Practice Test</h1>
 						<p>+20 Reputation</p>
 						<div className="btn-wrapper">
-							<a href="/board">
+							<a href="/practice">
 								<button>Start</button>
 							</a>
 							<div className="buttonshadow"></div>
@@ -33,14 +33,14 @@ class Homepage extends Component {
     );
   }
 }
-  class Box extends Component{
-  	render() {
-  		return (
-  		<div className="DropInOut dropDown">
-  		<a href="/profile">Profile</a>
-    	<a href="/logout">Logout</a>
-    	</div>
-    	);
-  	}
-  }
+  // class Box extends Component{
+  // 	render() {
+  // 		return (
+  // 		<div className="DropInOut dropDown">
+  // 		<a href="/profile">Profile</a>
+  //   	<a href="/logout">Logout</a>
+  //   	</div>
+  //   	);
+  // 	}
+  // }
 export default Homepage;
